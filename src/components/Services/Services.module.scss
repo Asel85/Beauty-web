@@ -1,0 +1,47 @@
+@import '../../styles/variables';
+
+.title {
+  font-family: 'Cormorant Garamond', serif;
+  color: #f53c58;
+  font-size: 50px;
+  text-align: center;
+
+  @media (max-width: $breakpoint-md) {
+    font-size: 30px;
+  }
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-bottom: 50px;
+  margin-top: 50px;
+  row-gap: 20px;
+
+  @media (max-width: $breakpoint-md) {
+    padding: 30px;
+    margin-top: 30px;
+  }
+
+  .img {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .cardTitle {
+    color: #361419;
+
+    @media (max-width: $breakpoint-md) {
+      font-size: 20px;
+    }
+  }
+
+  .cardText {
+    color: #361419;
+    @media (max-width: $breakpoint-md) {
+      font-size: 10px;
+    }
+  }
+}

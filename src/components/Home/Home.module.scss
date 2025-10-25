@@ -1,0 +1,53 @@
+@import '../../styles/variables';
+
+.container {
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+  @media (max-width: $breakpoint-md) {
+  }
+
+  h1 {
+    font-family: 'Cormorant Garamond', serif;
+    color: #f53c58;
+    font-size: 75px;
+
+    @media (max-width: $breakpoint-md) {
+      font-size: 40px;
+      max-width: 300px;
+      text-align: center;
+    }
+  }
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 30px;
+    //height: 100vh;
+
+    @media (max-width: $breakpoint-md) {
+      row-gap: 20px;
+    }
+
+    p {
+      font-family: 'Cormorant Garamond', serif;
+      color: #f53c58;
+      font-size: 30px;
+      line-height: 1.5;
+
+      @media (max-width: $breakpoint-md) {
+        font-size: 20px;
+        margin-bottom: 30px;
+      }
+    }
+
+    .btn {
+      background-color: #ffb6c1;
+      color: white;
+      border: none;
+      border-radius: 30px;
+      padding: 12px 30px;
+    }
+  }
+}

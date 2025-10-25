@@ -1,0 +1,35 @@
+@import '../../styles/variables';
+
+.container {
+  padding: 100px 50px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+  align-items: center;
+  justify-content: center;
+
+  @media (max-width: $breakpoint-md) {
+    padding: 50px 20px;
+  }
+
+  h1 {
+    font-family: 'Cormorant Garamond', serif;
+    color: #f53c58;
+    font-size: 50px;
+    align-items: center;
+
+    @media (max-width: $breakpoint-md) {
+      font-size: 30px;
+    }
+  }
+
+  p {
+    font-family: 'Cormorant Garamond', serif;
+    color: #361419;
+    font-size: 20px;
+
+    @media (max-width: $breakpoint-md) {
+      font-size: 15px;
+    }
+  }
+}
