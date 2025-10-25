@@ -1,6 +1,32 @@
+@import '../../styles/variables';
+
 .navbar {
-  width: calc(100vw - 200px);
-  margin: 0 auto;
+  width: 100%;
   max-width: 1400px;
   background-color: #ffb6c1;
+  padding: 0 50px;
+  margin: 0 auto;
+
+  @media (max-width: $breakpoint-md) {
+    padding: 0 20px;
+  }
+
+  @media (max-width: $breakpoint-sm) {
+    padding: 0 15px;
+  }
+
+  img {
+    width: 100px;
+    height: 100px;
+
+    @media (max-width: $breakpoint-md) {
+      width: 50px;
+      height: 50px;
+    }
+
+    @media (max-width: $breakpoint-sm) {
+      width: 40px;
+      height: 40px;
+    }
+  }
 }

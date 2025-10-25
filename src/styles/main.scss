@@ -5,10 +5,19 @@ body {
   font-family: $font-main;
 }
 .body {
-  width: calc(100vw - 200px);
+  width: 100%;
+  max-width: 1400px;
+  padding: 0 50px;
+  margin: 0 auto;
   height: 100%;
   background-color: $bg-color;
-  margin: 0px auto;
-  max-width: 1400px;
   color: $color;
+
+  @media (max-width: $breakpoint-md) {
+    padding: 0 20px;
+  }
+
+  @media (max-width: $breakpoint-sm) {
+    padding: 0 15px;
+  }
 }

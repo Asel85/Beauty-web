@@ -1,12 +1,19 @@
+@import '../../styles/variables';
+
 .container {
-  width: calc(100vw - 200px);
-  margin: 0 auto;
+  width: 100%;
   max-width: 1400px;
   background-color: #ffb6c1;
-  padding-top: 50px;
-  padding-bottom: 20px;
-  padding-left: 30px;
-  padding-right: 30px;
+  padding: 10px 50px;
+  margin: 0 auto;
+
+  @media (max-width: $breakpoint-md) {
+    padding: 5px 20px;
+  }
+
+  @media (max-width: $breakpoint-sm) {
+    padding: 5px 15px;
+  }
 
   .title {
     text-transform: uppercase;

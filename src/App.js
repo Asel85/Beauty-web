@@ -8,14 +8,15 @@ import './styles/main.scss';
 function App() {
   return (
     <>
+      {' '}
       <Header />
       <div className="body">
         <Home />
         <SlideSection />
         <AboutMeSection />
         <Services />
-        <ContactSection />
       </div>
+      <ContactSection />
     </>
   );
 }

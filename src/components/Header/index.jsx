@@ -7,7 +7,7 @@ function Header() {
     <nav className={`${style.navbar} navbar navbar-expand-lg navbar-darck`}>
       <div className="container">
         <a className="navbar-brand d-flex align-items-center" href="#home">
-          <img src={logo} alt="Logo" width="100" height="100" className="me-2" />
+          <img src={logo} className="me-2" />
         </a>
 
         <button
