@@ -4,7 +4,7 @@ import style from './ContactSection.module.scss';
 const ContactSection = () => {
   return (
     <div id="contact" className={style.container}>
-      <h3 className={style.title}>Контакты</h3>
+      <h3 className={style.title}>Contatti</h3>
       <div className={style.contacts}>
         <p>
           <i className="bi bi-telephone-fill"></i>{' '}
@@ -17,7 +17,7 @@ const ContactSection = () => {
           <i className="bi bi-whatsapp"></i>{' '}
           <a href="https://wa.me/393804368620" target="_blank">
             {' '}
-            Написать
+            Scrivimi
           </a>
         </p>
         <p>
@@ -41,7 +41,7 @@ const ContactSection = () => {
         </p>
       </div>
       <p className={style.copy}>
-        © {new Date().getFullYear()} Nara Milano Beauty Space. Все права защищены.
+        © {new Date().getFullYear()} Nara Milano Beauty Space. Tutti i diritti riservati.
       </p>
     </div>
   );

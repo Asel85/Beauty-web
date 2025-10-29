@@ -4,20 +4,25 @@ import style from './AboutMeSection.module.scss';
 const AboutMeSection = () => {
   return (
     <div className={style.container} id="about">
-      <h1>Обо мне</h1>
+      <h1>Su di me</h1>
       <p>
-        Меня зовут Динара Валиева, я — основатель NARA Milano Beauty Space, сертифицированный
-        косметолог, преподаватель и мастер lash & brow с более чем 15-летним опытом в индустрии
-        красоты. Мой путь начался в Москве, где я обучалась у ведущих специалистов и одной из первых
-        в России и Казахстане освоила технику наращивания ресниц. Позже я окончила Итальянскую школу
-        эстетики, где получила европейское видение ухода за кожей и естественной красоты. Сегодня я
-        специализируюсь на уходовых и аппаратных процедурах для лица, включая Hydrafacial,
-        антивозрастные протоколы, восстановление кожи после стресса и солнца, глубокое увлажнение и
-        повышение тонуса кожи. Я постоянно повышаю квалификацию, изучаю новые методики и внедряю
-        мировые тенденции в работу с клиентами. Как преподаватель я обучаю мастеров техникам
-        наращивания и ламинирования ресниц и бровей, а также правильному сочетанию эстетического
-        ухода и косметологии. Мой принцип — естественная, ухоженная, сияющая кожа и гармоничные
-        черты лица без перегрузки процедур.
+        Mi chiamo Dinara Valieva, sono la fondatrice di NARA Milano Beauty Space, cosmetologa
+        certificata, formatrice e specialista lash & brow con oltre 15 anni di esperienza nel
+        settore della bellezza e del benessere. La mia carriera ha avuto inizio a Mosca, dove ho
+        studiato con rinomati professionisti del settore e sono stata tra le prime in Russia e
+        Kazakhstan a perfezionare la tecnica dell’extension ciglia. Successivamente ho completato la
+        mia formazione presso una scuola italiana di estetica, acquisendo una visione europea della
+        cura della pelle e della bellezza naturale. Oggi mi dedico a trattamenti estetici avanzati
+        per il viso, sia manuali che strumentali, tra cui Hydrafacial, protocolli anti-età,
+        rigenerazione cutanea post-stress e post-esposizione solare, idratazione profonda e
+        tonificazione della pelle. Sono costantemente impegnata nell’aggiornamento professionale,
+        nello studio di nuove metodologie e nell’integrazione delle più recenti tendenze
+        internazionali nell’ambito della cosmetologia. In qualità di formatrice, trasmetto le mie
+        competenze a professionisti del settore, insegnando le tecniche di extension e laminazione
+        di ciglia e sopracciglia, oltre all’equilibrio tra estetica avanzata e cosmetologia moderna.
+        Il mio approccio si fonda su un principio chiaro: valorizzare la bellezza naturale
+        attraverso la cura, la competenza e l’armonia, per ottenere una pelle sana, luminosa e
+        autentica, senza eccessi né artifici.
       </p>
     </div>
   );

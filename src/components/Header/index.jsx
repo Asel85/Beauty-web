@@ -25,22 +25,22 @@ function Header() {
           <ul className="navbar-nav">
             <li className="nav-item">
               <a className="nav-link" href="#home">
-                Главная
+                Home
               </a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#about">
-                Обо мне
+                Su di me
               </a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#services">
-                Услуги
+                Servizi
               </a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#contact">
-                Контакты
+                Contatti
               </a>
             </li>
           </ul>
